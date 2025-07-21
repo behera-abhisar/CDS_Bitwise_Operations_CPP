@@ -25,3 +25,12 @@ int main() {
 
     return 0;
 }
+
+/* Output
+
+Enter a number: 5
+Enter the position to set: 1
+Set bit value: 5
+Reset bit value: 4
+
+*/
