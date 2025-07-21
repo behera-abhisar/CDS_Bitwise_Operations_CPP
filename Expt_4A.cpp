@@ -35,3 +35,19 @@ int main()
 
     return 0;
 }
+
+/* Output
+
+a: 5
+b: 10
+AND: 0
+OR: 1
+XOR: 15
+NOT a: -6
+NOT b: -11
+Left Shift a: 10
+Right Shift a: 2
+Left Shift b: 20
+Right Shift b: 5
+
+*/
