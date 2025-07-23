@@ -62,15 +62,15 @@ Bitwise operations allow direct manipulation of individual bits in binary repres
 - `&` with `~` (bitwise AND with NOT) to **reset** a bit
 
 To set or reset the bit at a particular position `pos` (1-based index):
-- **Set bit**: `a | (1 << (pos - 1))`  
-- **Reset bit**: `a & ~(1 << (pos - 1))`
+- **Set bit** : `a | (1 << (pos - 1))`  
+- **Reset bit** : `a & ~(1 << (pos - 1))`
 
 These operations are useful in embedded systems, flag manipulation, and memory-efficient programming.
 
 ### Example:
 For `a = 5` (which is `0101` in binary) and position = 1:
-- Set bit: no change (LSB is already 1) → result = 5
-- Reset bit: LSB set to 0 → result = 4
+- Set bit : no change (LSB is already 1) → result = 5
+- Reset bit : LSB set to 0 → result = 4
 
 ### ALGORITHM
 1. Start  
